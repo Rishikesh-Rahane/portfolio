@@ -1,0 +1,38 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://i2.wp.com/media.giphy.com/media/Fp0QbuZ47W2HK/giphy.gif'); /* Optional: Add a background image */
+  background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: add a dark overlay */
+}
+
+.popup {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.popup h1 {
+  margin: 0 0 1rem;
+}
+
+.popup p {
+  margin: 0;
+}
